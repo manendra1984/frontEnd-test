@@ -1,0 +1,29 @@
+
+ .grid-item { width: 25%;
+    float: left;
+    
+    margin-bottom: 20px;
+   }
+.grid-item--width2 { width: 50%; }
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .mt-50{
+      margin-top:50px;
+  }
+  .mt-100{
+    margin-top:100px;
+}
+.mt-150{
+    margin-top:150px;
+}
+.img-container{
+ width: 100%;
+height: 100%;
+padding: 20px;
+}
+.txt-container{
+    padding: 20px; 
+}
